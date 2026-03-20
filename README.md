@@ -10,9 +10,9 @@ focado em boas práticas, BDD e reutilização de código.
 - Chromium
 
 ## 🧪 Cenários Automatizados
-- Login com email inválido
-- Recuperação de conta
-- Criação de nova conta
+ 1 - Validar redirecionamento para criação de conta
+ 2 - Validar acesso à recuperação de conta
+ 3 - Validar mensagem de erro ao informar email inválido
 
 ## 📁 Estrutura do Projeto
 - resources/ → Keywords reutilizáveis
@@ -26,4 +26,4 @@ pip install robotframework robotframework-browser
 rfbrowser init
 
 ### Comando para executar os testes
-robot tests/
+robot tests/testes_login.robot
