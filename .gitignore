@@ -4,3 +4,5 @@ logs/
 log.html
 report.html
 output.xml
+*.txt
+playwright-report/
